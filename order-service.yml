@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: order-service
+
+  kafka:
+    consumer:
+      group-id: order-service-group

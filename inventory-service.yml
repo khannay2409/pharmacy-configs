@@ -1,0 +1,10 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: inventory-service
+
+  kafka:
+    consumer:
+      group-id: inventory-service-group
