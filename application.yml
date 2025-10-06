@@ -22,6 +22,12 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
 
+  cloud:
+    config:
+      retry:
+        max-attempts: 6
+        max-interval: 4000
+
 eureka:
   client:
     service-url:
